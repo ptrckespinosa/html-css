@@ -1,0 +1,75 @@
+ <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(143, 141, 141);
+            padding: 3px;
+        }
+        nav > a{         -> CÓDIGO PARA FORMATAR LINKS DENTRO DO NAV
+            text-decoration: none;
+            color: white;
+            margin-right: 25px;
+            font-weight: bold;
+        }
+        nav > a:hover{		-> CÓDIGO PARA FORMATAR QUANDO O MOUSE PASSAR EM CIMA
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{		-> CÓDIGO PARA FORMATAR O ASIDE DENTRO DO ARTICLE
+            background-color: gold;
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quam repellendus, quaerat autem ipsam cumque eius animi possimus, adipisci magni vero ullam officia fugit recusandae at assumenda. Nobis, eius fuga.</p>
+                <aside>
+                    <p>Escrito por josé da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por @ptrckespinosa
+    </footer>
+    
+</body>
+</html>

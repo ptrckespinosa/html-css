@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(23, 20, 20);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+}

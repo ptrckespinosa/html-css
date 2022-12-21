@@ -1,0 +1,50 @@
+PSEUDO CLASSES E PSEUDO ELEMENTO
+
+
+# = id
+. = class
+: = pseudo-class
+:: = pseudp-elemento
+> = childrem
+
+
+
+
+
+<style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: ;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: beige;
+        }
+        a:hover{
+            color: darkred;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial.especial::before{
+            content: '♀';
+        }
+        a::after{
+            content: '♀';
+            text-decoration: none;            
+            color: darkgray;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" class="especial">Página do YouTube</a></li>
+        <li><a href="https://g1.globo.com/">Página do G1</a></li>
+        <li><a href="https://www.americanas.com.br/lojista/trama-original?gclid=Cj0KCQiA4uCcBhDdARIsAH5jyUlj42dQK_hPI-XQ5aPTmuwTjsA26QHVGAfOaEToYs707oYsHU-8FZYaAoU4EALw_wcB">Página das americanas</a></li>

@@ -1,0 +1,11 @@
+código de css gradiente
+
+<style>
+        *{
+            height: 100%;
+        }
+        body{
+            background-image: linear-gradient(to right, #40b0cf, #F5D7E3, #9DD9D2, #F391A0);
+            background-attachment: fixed;
+        }
+    </style>

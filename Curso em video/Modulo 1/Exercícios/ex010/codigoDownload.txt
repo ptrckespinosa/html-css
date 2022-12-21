@@ -1,0 +1,4 @@
+download de arquivos
+
+<li><a href="livros/06 - Imagens e Favicon.pdf" download="06 - Imagens e Favicon.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livros/06 - Imagens e Favicon.zip" download="06 - Imagens e Favicon.pdf" type="application.zip">Baixar o livro compactado ZIP</a></li>
